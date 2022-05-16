@@ -14,7 +14,7 @@ export default function Welcome({ show, handelClose, buttons: { handelNext } }) 
 
     return (
         <CustomWindow title='welcome' calcSize={calcSize} show={show} handelClose={handelClose}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1em' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1em' }}>                            
                 <span className="page-heading">Welcome</span>
                 <button onClick={handelNext} className="page-button">start</button>
             </div>

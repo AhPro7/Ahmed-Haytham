@@ -1,48 +1,52 @@
 export const INFO = {
-    pic: 'MohamedWafy.jpg',
-    about: 'Full Stack Web Developer, and a Computer Science student with experience in Frontend Development, Backend Development, and some cloud.'
+    pic: 'Ahmed.png',
+    about: "Hi, i'm Ahmed Haytham Certified professional data scientist with >1 years of experience ,Kaggle Expert ,Data science head in Google DSC Damnhour looking for data scientist in stable company to prove and improve my skills . i will make data tell you it's secrets"
+    
 }
 
 
 export const LINKS = [
-    { title: 'LinkedIn', href: 'https://linkedin.com/in/mohamedwafy', brd: '#1e90ff', sdw: '#1e90ff22' },
-    { title: 'Github', href: 'https://github.com/MoWafy001', brd: '#333', sdw: '#3332' },
-    { title: 'Qwiklabs', href: 'https://www.qwiklabs.com/public_profiles/0f19a901-5330-4dcf-8ed6-95d7ec3b68db', brd: '#F4B400', sdw: '#F4B40022' },
-    { title: 'wafy123445@gmail.com', href: 'mailto: wafy123445@gmail.com', brd: '#C71610', sdw: '#C7161022' },
-    { title: '+201127813978', href: 'tel: +201128913978', brd: '#000', sdw: '#0002' },
+    { title: 'LinkedIn', href: 'https://www.linkedin.com/in/ahmed-haytham/', brd: '#033FFF', sdw: '#1e90ff22' },
+    { title: 'Kaggle', href: 'https://www.kaggle.com/ahmedhaytham', brd: '#541690', sdw: '#1e90ff22' },
+    { title: 'Github', href: 'https://github.com/AhPro7', brd: '#333', sdw: '#3332' },
+    { title: 'ahpro001@gmail.com', href: 'mailto: wafy123445@gmail.com', brd: '#C71610', sdw: '#C7161022' },
+    { title: '+201011616142', href: 'tel: +201128913978', brd: '#000', sdw: '#0002' },
 ]
 
 
 export const SKILLS = [
-    'NodeJS', 'Flask', 'Djagno', 'AWS', 'Python', 'JavaScript', 'PHP', 'API Development',
-    'SQL', 'NoSQL', 'Google Cloud', 'React', 'CSS', 'Java', 'Bootstrap', 'Problem Solving',
-    'Web Scraping', 'jQuery'
+    'Data Management', 'Data Analysis', 'Statistical Experimentation', 'Model Development', 'Coding for Production Environments', 'Communication and Reporting',
+    'Web Scraping','Problem Solving'
+]
+
+export const Tools = [
+    'Python', 'R', 'SAS', 'T-SQL', 'PowerBI', 'Excel', 'TensorFlow','PyTorch', 'Sklearn',
+    'Plotly', 'Open CV', 'matplotlib', 'Seaborn', 'Java', 'c++','Google Data Studio',
 ]
 
 
 export const PROJECTS = [
-    { tag: 'NodeJS | SocketIO', title: 'The Royal Game of Ur', img: 'rg.png', link: 'https://github.com/MoWafy001/the-royal-game-of-ur', },
-    { tag: 'NodeJS | SocketIO', title: 'Temp Group Chat', img: null, link: 'https://github.com/MoWafy001/temp-group-chat', },
-    { tag: 'React', title: 'My Reads', img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjames-priest.github.io%2Freactnd-project-myreads%2Fassets%2Fimages%2Fp1-small.jpg&f=1&nofb=1', link: 'https://github.com/MoWafy001/reactnd-project-myreads-starter', },
-    { tag: 'Flask', title: 'Heart Diseases Detector', img: null, link: 'https://github.com/MoWafy001/Detection-of-Heart-Diseases', },
-    { tag: 'Flask', title: 'DrSmart Backend ', img: null, link: 'https://github.com/DrSmartGDSC/DrSmart-Backend', },
-    { tag: 'PHP', title: 'Time Tracker', img: 'tt.webp', link: 'https://github.com/MoWafy001/time-tracker', },
-    { tag: 'NodeJS | PeerJS', title: 'Zoom Clone', img: 'wc.webp', link: 'https://github.com/MoWafy001/zoom-clone-2.0', },
-    { tag: 'JS', title: 'Pomodoro timer', img: 'pt.png', link: 'https://github.com/MoWafy001/Pomodoro-Timer', },
-    { tag: 'JS', title: 'Spelling Practice', img: 'sp.png', link: 'https://github.com/MoWafy001/spelling-practice', },
-    { tag: 'NodeJS', title: 'Anonymous Questions', img: null, link: 'https://github.com/MoWafy001/anonymous-questions', },
-    { tag: 'Flask', title: 'Coffee Shop', img: null, link: 'https://github.com/MoWafy001/coffee_shop_project', },
-    { tag: 'Flask', title: 'Trivia', img: null, link: 'https://github.com/MoWafy001/trivia', },
-    { tag: 'Flask', title: 'Fyyur', img: 'fy.png', link: 'https://github.com/MoWafy001/fyyur', },
+    { tag: 'Python | TensorFlow | PyTorch', title: 'Self driving car in Egypt', img: 'self.png', link: 'https://github.com/AhPro7/self-driving-car-in-egypt', },
+    { tag: 'Python | TensorFlow', title: 'Dr Smart', img: 'dr.png', link: 'https://github.com/AhPro7/Dr.Smart-_-Model', },
+    { tag: 'Python', title: 'Medical Appointment', img: 'ab.png', link: 'https://www.kaggle.com/code/ahmedhaytham/medical-appointment-no-shows-0', },
+    { tag: 'Python', title: 'DHD', img: 'He.png', link: 'https://www.kaggle.com/code/ahmedhaytham/heart-disease-eda-93#Univariate-Exploration', },
+    { tag: 'Power BI', title: 'Analyzing Job Market', img: 'Po.png', link: '', },
+    { tag: 'Power BI', title: 'Analyzing Customer Churn', img: 'Po1.png', link: '', },
+    { tag: 'Python | TensorFlow', title: 'Human Pose Estimation', img: 'Pos.png', link: '', },
+    { tag: 'Python', title: 'Game Market Analysis', img: 'game.png', link: 'https://www.kaggle.com/code/ahmedhaytham/game-sales-analysis', },
+    { tag: 'Tableau', title: 'DIVY Analysis', img: 'Tab1.jpeg', link: '', },
+    { tag: 'Tableau', title: 'Analyzing Customer Churn in tableau', img: 'Tab0.png', link: '', },
 ]
 
 
 export const CERTIFICATES = [
-    { tag: 'React - Udacity', title: 'React Developement Cross-Skilling Nanodegree', img: 'https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/82033ead-b043-4f86-80d7-6aff80be062a.svg', link: 'https://graduation.udacity.com/confirm/TA9ZX9QD', },
-    { tag: 'Flask - API Developement - Udacity', title: 'Advanced Web Development Nanodegree', img: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/a810afad-78ca-48b5-aa4c-683a4caea70b.svg", link: 'https://graduation.udacity.com/confirm/PANDNREA', },
-    { tag: 'NodeJS - JavaScript - Udacity', title: 'Web Development Professional Nanodegree', img: 'https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/a93eee33-cf66-4953-8fbf-88459b94c17b.svg', link: 'https://graduation.udacity.com/confirm/FFGDWSHT', },
-    { tag: 'Python - Keras - DataCamp', title: 'Image Processing with Keras in Python', img: 'certs/Image Processing with Keras in Python.png', link: 'https://www.datacamp.com/statement-of-accomplishment/course/0d4635181c77d5283ce247671a287192873b8321', },
-    { tag: 'Python - DL - DataCamp', title: 'Introduction to Deep Learning in Python', img: 'certs/Introduction to Deep Learning in Python.png', link: 'https://www.datacamp.com/statement-of-accomplishment/course/095f7e34b990ef3fe5dd329996462606ba0019d4', },
-    { tag: 'Python - Pandas - DataCamp', title: 'Data Manipulation with pandas', img: 'certs/Data Manipulation with pandas.png', link: 'https://www.datacamp.com/statement-of-accomplishment/course/56ab37ab3b7992214bec32ed9c19f97012136d0e', },
-    { tag: 'Python - DataCamp', title: 'Intermediate Python', img: 'certs/Intermediate Python.png', link: 'https://www.datacamp.com/statement-of-accomplishment/course/436ea4783462eb428ddd42d6f56488edef96d2f0', },
+    { tag: '', title: 'Professional Data Scientist Certificate', img: 'https://github.com/AhPro7/my-certifications/blob/main/1.Data%20Scientist%20Professional.png?raw=true', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
+    { tag: 'Udacity', title: 'Advanced Data Analysis', img: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/f8383d74-a7b1-4733-9dea-fcfb80225ffa.svg", link: 'https://graduation.udacity.com/nd002-mena-nfp3', },
+    { tag: '', title: 'IBM Machine Learning', img: 'https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~63SZZBMZ4T4D/CERTIFICATE_LANDING_PAGE~63SZZBMZ4T4D.jpeg', link: 'https://www.coursera.org/account/accomplishments/professional-cert/63SZZBMZ4T4D', },
+    { tag: '', title: 'Machine Learning Intership', img: 'https://github.com/AhPro7/my-certifications/blob/main/intership_machinefy.jpg?raw=true', link: '', },
+    { tag: '', title: 'Data Scientist', img: 'datasc.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
+    { tag: '', title: 'Data Analyst with python', img: 'dataanp.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
+    { tag: '', title: 'Machine Learning Scientist', img: 'dataml.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
+    { tag: '', title: 'Tableau', img: 'Tableau.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
+    { tag: '', title: 'Data Analyst with SQL Server', img: 'dataans.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
 ]

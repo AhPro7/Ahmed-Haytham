@@ -1,6 +1,6 @@
 import CustomWindow from "../sub/CustomWindow";
 import { SKILLS } from "../const";
-
+import { Tools } from "../const";
 export default function Skills({ show, handelClose, buttons: { handelNext, handelBack } }) {
 
     const calcSize = () => {
@@ -30,6 +30,20 @@ export default function Skills({ show, handelClose, buttons: { handelNext, hande
                     <span key={skill.anchor + skill} className="cell">{skill}</span>
                 ))}
             </div>
+            <p style={{
+                border: '2px solid #222',
+                padding: '0.5em 2em',
+                boxShadow: '0.5em 0.5em #000',
+                marginRight: '0.5em'
+            }}>Tools</p>
+
+
+            <div className="skills">
+                {Tools.map(skill => (
+                    <span key={skill.anchor + skill} className="cell">{skill}</span>
+                ))}
+            </div>
+
 
 
             <div style={{
