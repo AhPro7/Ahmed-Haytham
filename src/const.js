@@ -9,8 +9,10 @@ export const LINKS = [
     { title: 'LinkedIn', href: 'https://www.linkedin.com/in/ahmed-haytham/', brd: '#033FFF', sdw: '#1e90ff22' },
     { title: 'Kaggle', href: 'https://www.kaggle.com/ahmedhaytham', brd: '#541690', sdw: '#1e90ff22' },
     { title: 'Github', href: 'https://github.com/AhPro7', brd: '#333', sdw: '#3332' },
-    { title: 'ahpro001@gmail.com', href: 'mailto: wafy123445@gmail.com', brd: '#C71610', sdw: '#C7161022' },
-    { title: '+201011616142', href: 'tel: +201128913978', brd: '#000', sdw: '#0002' },
+    { title: 'ahpro001@gmail.com', href: 'mailto: ahpro001@gmail.com', brd: '#C71610', sdw: '#C7161022' },
+    { title: '+201011616142', href: 'tel: +201011616142', brd: '#000', sdw: '#0002' },
+    { title: 'Resume', href: 'https://github.com/AhPro7/my-certifications/blob/main/res.pdf', brd: '#033FFF', sdw: '#1e90ff22' },
+
 ]
 
 
@@ -49,4 +51,5 @@ export const CERTIFICATES = [
     { tag: '', title: 'Machine Learning Scientist', img: 'dataml.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
     { tag: '', title: 'Tableau', img: 'Tableau.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
     { tag: '', title: 'Data Analyst with SQL Server', img: 'dataans.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
+    { tag: '', title: 'More', img: 'more.png', link: 'https://github.com/AhPro7/my-certifications', },
 ]
