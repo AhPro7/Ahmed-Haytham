@@ -1,7 +1,7 @@
 import CustomWindow from "../sub/CustomWindow";
 
 export default function Navigate({ show, handelClose, buttons: {
-    info, links, skills, projects, education
+    info, links, skills, projects, education , experience
 } }) {
 
     const calcSize = () => {
@@ -33,6 +33,7 @@ export default function Navigate({ show, handelClose, buttons: {
                     <li onClick={skills} className="page-button">Skills</li>
                     <li onClick={projects} className="page-button">Projects</li>
                     <li onClick={education} className="page-button">Education</li>
+                    <li onClick={experience} className="page-button">Experience</li>
                 </ul>
             </div>
         </CustomWindow>

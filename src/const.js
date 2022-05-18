@@ -53,3 +53,45 @@ export const CERTIFICATES = [
     { tag: '', title: 'Data Analyst with SQL Server', img: 'dataans.png', link: 'https://www.datacamp.com/certificate/DS0014801924371', },
     { tag: '', title: 'More', img: 'more.png', link: 'https://github.com/AhPro7/my-certifications', },
 ]
+
+
+
+
+export const WORK = [
+    { des : <ul>
+        <li> Collect and prepare data from YouTube,kaggle and roboflow </li>
+        <li> build deep learning models and evaluate them</li>
+        <li> Read papers and bulid models in it </li>
+        <li> make presentations to explain the topic and solutions</li>
+        </ul>
+     ,tag: 'Curve AI Solutions'
+     ,title: 'Deep Learning & Computer vision intern'
+     ,img: 'curve.png'
+     ,link: 'https://www.linkedin.com/in/ahmed-haytham/', 
+    },
+
+
+    { des : <ul>
+            <li> Led a team of 3 data scientist to develop a track plan for teaching beginners data science </li>
+            <li> Helping colleagues learn data science using Google techniques in data science for practical application</li>
+            </ul>
+     ,tag: 'Google Developer Student Clubs - GDSC Damanhour University'
+     ,title: 'Data Science Head'
+     ,img: 'Gdsc.png'
+     ,link: 'https://www.linkedin.com/in/ahmed-haytham/', 
+    },
+    { des : <ul>
+        <li> Data cleaning and analysis using python  </li>
+        <li> Building a predictive model</li>
+        <li> Writing technical and non-technical reports</li>
+
+        </ul>
+     ,tag: 'MACHINFY'
+     ,title: 'Machine Learning intern'
+     ,img: 'MACHINFY.png'
+     ,link: 'https://www.linkedin.com/in/ahmed-haytham/', 
+},
+
+    
+
+]

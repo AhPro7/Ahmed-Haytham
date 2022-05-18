@@ -8,6 +8,7 @@ import Links from './windows/Links';
 import Skills from './windows/Skills';
 import Projects from './windows/Projects';
 import Education from './windows/Education';
+import Experience from './windows/Experience';
 
 function App() {
 
@@ -75,9 +76,16 @@ function App() {
       <Education show={windows.education}
         handelClose={updateWindows({ education: false })}
         buttons={{
-          handelNext: updateWindows({ education: false, navigate: true }),
+          handelNext: updateWindows({ education: false, experience: true }),
           handelBack: updateWindows({ education: false, projects: true })
         }} />
+      <Experience show={windows.experience}
+        handelClose={updateWindows({ experience: false })}
+        buttons={{
+          handelNext: updateWindows({ experience: false, navigate: true }),
+          handelBack: updateWindows({ experience: false, education: true })
+        }} />
+
 
     </div>
   );

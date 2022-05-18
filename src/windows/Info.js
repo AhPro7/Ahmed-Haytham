@@ -16,8 +16,10 @@ export default function Info({ show, handelClose, buttons: { handelNext, handelN
     const body_style = { fontSize: '1em', display: 'flex', justifyContent: 'flex-start', padding: '1rem', flexDirection: 'column', gap: '1em' }
 
     return (
-        <CustomWindow title='Info' calcSize={calcSize} body_style={body_style} show={show} handelClose={handelClose}>
+        <CustomWindow title='Info' calcSize={calcSize} body_style={body_style} show={show} handelClose={handelClose} >
             <img className="noselect profpic" draggable={false} style={{
+                    
+
 
             }} src={INFO.pic} alt="profile pic" />
 
@@ -31,7 +33,7 @@ export default function Info({ show, handelClose, buttons: { handelNext, handelN
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
-                gap: '1em'
+                gap: '1em',    
             }}>
                 <button onClick={handelNavigate} className="page-button">Navigate</button>
                 <button onClick={handelNext} className="page-button">Next (Links)</button>
