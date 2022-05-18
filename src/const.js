@@ -72,8 +72,8 @@ export const WORK = [
 
 
     { des : <ul>
-            <li> Led a team of 3 data scientist to develop a track plan for teaching beginners data science </li>
-            <li> Helping colleagues learn data science using Google techniques in data science for practical application</li>
+            <li> lead a team of 3 data scientist to develop a track plan for teaching beginners data science </li>
+            <li> Helping colleagues learn data science using Google technologies in data science</li>
             </ul>
      ,tag: 'Google Developer Student Clubs - GDSC Damanhour University'
      ,title: 'Data Science Head'
